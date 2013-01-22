@@ -1,0 +1,54 @@
+.back {
+	color: #999;
+	padding: 8px;
+	display: block;
+}
+
+.back:hover {
+	color: #333;
+}
+
+#container {
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #64DAD0), color-stop(100%, #689ecd));
+	background-image: -webkit-linear-gradient(#64DAD0, #689ecd);
+	background-image: -moz-linear-gradient(#64DAD0, #689ecd);
+	background-image: -o-linear-gradient(#64DAD0, #689ecd);
+	background-image: -ms-linear-gradient(#64DAD0, #689ecd);
+	background-image: linear-gradient(#64DAD0, #689ecd);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+	margin: 80px auto;
+	padding: 20px;
+	position: relative;
+	width: 180px;
+}
+
+#container * {
+	position: relative;
+}
+
+h1 {
+	font-size: 15px;
+	text-align: center;
+}
+
+#container::before {
+	background: white;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	bottom: 3px;
+	content: '';
+	left: 3px;
+	position: absolute;
+	right: 3px;
+	top: 3px;
+}

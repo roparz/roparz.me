@@ -1,0 +1,73 @@
+.back {
+	color: #999;
+	padding: 8px;
+	display: block;
+}
+
+.back:hover {
+	color: #333;
+}
+
+@font-face {
+	font-family: 'Collegia';
+	font-style: normal;
+	font-weight: normal;
+	src: local("Bangers"), url("/fonts/COLLEGIA.otf") format("woff");
+}
+
+.container {
+	background: white;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -200px;
+	overflow: hidden;
+	box-shadow: 0 0 50px rgba(0,0,0,.5);
+}
+
+.forkme {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: -75px;
+	background: #FAFAFA;
+
+	background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+	background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+	background: -o-linear-gradient(#FAFAFA,#EAEAEA);
+	background: -ms-linear-gradient(#FAFAFA,#EAEAEA);
+	background: linear-gradient(#FAFAFA,#EAEAEA);
+	color: black;
+	height: 40px;
+	width: 250px;
+	text-decoration: none;
+	text-align: center;
+	font-family: "Collegia";
+	font-size: 32px;
+	line-height: 34px;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	border-top: 1px solid #CACACA;
+	border-bottom: 1px solid #CACACA;
+}
+
+.forkme span {
+	display: block;
+	text-transform: uppercase;
+	position: absolute;
+	left: 105px;
+	top: 15px;
+	font-size: 12px;
+}
+
+.forkme:hover {
+	color: #2C6EB4;
+	text-decoration: none;
+}
