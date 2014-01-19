@@ -3,5 +3,7 @@
   "name": "",
   "version": "0.0.0",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "bower": "~1.2.8"
+  }
 }
